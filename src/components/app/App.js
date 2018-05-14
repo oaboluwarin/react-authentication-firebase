@@ -20,7 +20,6 @@ const App = () =>
       <Navigation />
 
       <hr />
-
       <Route exact path={LANDING} component={Landing} />
       <Route exact path={HOME} component={HomePage} />
       <Route exact path={ACCOUNT} component={AccountPage} />
