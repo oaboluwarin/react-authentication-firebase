@@ -2,20 +2,20 @@ import 'dotenv/config';
 import firebase from 'firebase';
 
 const {
-  API_KEY,
-  AUTH_DOMAIN,
-  DB_URL,
-  PROJECT_ID,
-  MSG_SENDER_ID
+  REACT_APP_API_KEY,
+  REACT_APP_AUTH_DOMAIN,
+  REACT_APP_DB_URL,
+  REACT_APP_PROJECT_ID,
+  REACT_APP_MSG_SENDER_ID
 } = process.env;
 
 const config = {
-  apiKey: API_KEY,
-  authDomain: AUTH_DOMAIN,
-  databaseURL: DB_URL,
-  projectId: PROJECT_ID,
+  apiKey: REACT_APP_API_KEY,
+  authDomain: REACT_APP_AUTH_DOMAIN,
+  databaseURL: REACT_APP_DB_URL,
+  projectId: REACT_APP_PROJECT_ID,
   storageBucket: '',
-  messagingSenderId: MSG_SENDER_ID
+  messagingSenderId: REACT_APP_MSG_SENDER_ID
 };
 
 if (!firebase.apps.length) {
