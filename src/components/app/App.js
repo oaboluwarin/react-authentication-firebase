@@ -12,7 +12,7 @@ import {
   SIGN_UP
 } from '../../constants'
 import Navigation from '../Navigation';
-import { HomePage, Landing, PasswordForgetPage, SigninPage, SignupPage, AccountPage} from '..';
+import { HomePage, Landing, PasswordForgetPage, SigninPage, SignupPage, AccountPage } from '..';
 
 const App = () =>
   <Router>
